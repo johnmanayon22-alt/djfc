@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Submit Prayer | Divine Jireh Fellowship Church</title><link rel="icon" href="assets/logo.svg"><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="submit"><header id="nav"></header><main>
+<div class="cute">
+<div class="big">&#128591;</div>
+<h1>Share a Prayer</h1>
+<p class="sub">We would love to pray with you.</p>
+<div id="msg"></div>
+<form id="f" class="card" novalidate>
+<label>Your name</label><input name="name" placeholder="e.g. Maria">
+<label class="chk"><input type="checkbox" name="anon"> Keep my name hidden</label>
+<label>Email <small>(optional)</small></label><input name="email" type="email" placeholder="you@example.com">
+<label>Prayer title</label><input name="title" placeholder="A few words">
+<label>Your prayer</label><textarea name="details" rows="4" placeholder="Tell us how we can pray..."></textarea>
+<label>Category</label>
+<select name="category"><option value="">Choose one...</option><option value="Healing">&#128154; Healing</option><option value="Family">&#127969; Family</option><option value="Guidance">&#129517; Guidance</option><option value="Provision">&#127806; Provision</option><option value="Thanksgiving">&#127775; Thanksgiving</option><option value="Salvation">&#128330; Salvation</option><option value="Other">&#10024; Other</option></select>
+<div class="pills"><label class="pill"><input type="radio" name="privacy" value="public" checked> &#127757; Share on Prayer Wall</label><label class="pill"><input type="radio" name="privacy" value="private"> &#128274; Keep private</label></div>
+<p style="text-align:center"><button class="btn dk">Send Prayer &#128140;</button></p>
+</form>
+<div id="done" class="card" hidden style="text-align:center"><div class="big">&#128330;</div><h2>Thank you!</h2><p>We are praying with you.</p><p id="doneTxt"></p><a class="btn dk" href="wall.html">Prayer Wall</a><a class="btn alt dk" href="submit.html">Send another</a></div>
+</div>
+</main><script src="js/common.js"></script><script src="js/pages.js"></script></body></html>
